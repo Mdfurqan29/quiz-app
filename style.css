@@ -1,0 +1,198 @@
+#em{
+    display: none;
+ 
+}
+body{
+    overflow: hidden;
+}
+#for{
+    display: flex;
+    margin-left: 0px;
+    width: 50%;
+    justify-content: space-between;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#em2{
+    display: none;
+
+}
+#container , #container2{
+    /* margin-top: 20px; */
+
+}
+#main{
+    margin-top: 0px;
+}
+/* .Login{
+    margin-top: 20px;
+} */
+
+#btn{
+    margin-bottom: 5px;
+    color: white;
+    width: 10%;
+}
+/* #container2{
+    display: flex;
+    justify-content: center;
+} */
+#forgetPassword{
+    display: none;
+}
+.main , #Login , #Rigister ,.second ,#forgetPassword{
+    width: 100vw; 
+    height: 100vh;
+    overflow:hidden ;
+    background:linear-gradient(transparent,#724ae8 ) ;
+}
+#inputmain{
+    margin-left: 27%;
+    position: relative;
+}
+#iconePassword{
+position: absolute;
+/* top: 242px; */
+bottom: 48px;
+transform: translateY(-50%);
+}
+#iconeEmail{
+position: absolute;
+ bottom: 135px;
+transform: translateY(-50%);
+}
+#iconeEmail2{
+    position: absolute;
+     bottom: 178px;
+    transform: translateY(-50%);
+    }
+    #iconeEmail3{
+        position: absolute;
+     bottom: 44px;
+    transform: translateY(-50%);
+    }
+#iconeuser{
+    position: absolute;
+    bottom: 68px;
+    transform: translateY(-50%);
+}
+#iconeusermain{
+    position: absolute;
+    bottom: 112px;
+    transform: translateY(-50%);
+    
+    }
+input{
+    padding-left: 20px;
+}
+
+
+#changepage ,#fore{
+    text-decoration: none;
+}
+#Rigister{
+    display: none;
+    transform: 2s  ;
+}
+#Login ,#Rigister{
+    width: 100vw; 
+    height: 100vh;
+    overflow: hidden;
+}
+#inputmain{
+    /* margin: auto; */
+    margin-top: 140px;
+}
+.loginBtn{
+    margin-top: 0px;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+}
+.justify-content-center{
+   width: 100%;
+    flex-direction: column;
+    
+}
+#userNameGet , #emailGet ,#userNumber,#userPasword , #userPaswordSend, #emailSend,#emailSend3{
+    background-color: transparent;
+    margin-top: 40px;
+border: none;
+border-bottom:2px solid black ;
+outline: none;
+align-items: center;
+width: 50%;
+
+}
+img{
+    max-width: 100%;
+    /* max-height: 100%; */
+}
+.icons , .icons2{
+    display: flex;  
+}
+.icons i , .icons2 i{
+    margin-top: 5px;
+}
+.icons p , .icons2 p{
+    margin-left: 8px;
+}
+.main{
+    display: none;
+}
+@media screen and (max-width:372px) {
+    /* #inputmain{
+        margin-left: 5%;
+} */
+}
+@media screen and (max-width:771px){
+    #btn{
+        margin-bottom: 5px;
+        color: white;
+        width: 20%;
+    }
+    #container{
+        /* margin-top: 70px; */
+    
+    }
+}
+
+@media screen and (max-width:481px){
+    #userNameGet , #emailGet ,#userNumber,#userPasword , #userPaswordSend, #emailSend{
+        width: 80%;
+        margin-right: 5px;
+    }
+    #changepage{
+        margin-left:200px ;
+    }
+    #inputmain{
+            margin-left: 15%;
+    }
+    #container{
+        /* margin-top: 60px; */
+    }
+
+}
+@media screen and (max-width:393px){
+    #changepage{
+        margin-left:180px ;
+    }
+    #btn{
+        margin-bottom: 5px;
+        color: white;
+        width: 30%;
+    }
+}
+@media screen and (max-width:353px){
+    #changepage{
+        margin-left:150px ;
+    }
+    #container{
+        /* margin-top: 50px; */
+    
+    }
+}
